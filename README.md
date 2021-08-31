@@ -17,5 +17,5 @@ Uma série de eventos realizados em todo o Brasil, pedindo liberdade para trabal
   - [✠ 12 de Maio 2021](https://brasil-pela-liberdade.vercel.app/clean/)
   - [✠ 15 de Maio 2021](https://brasil-pela-liberdade.vercel.app/grid/)
   - [✠ 23 de Maio 2021](https://brasil-pela-liberdade.vercel.app/grid-gallery/)
-  - [✠ 28 de Agosto 2021](https://brasil-pela-liberdade.vercel.app/compact-gallery/)
+  - [✠ 28 de Agosto 2021](https://brasil-pela-liberdade.vercel.app/cards-bauru/)
 
