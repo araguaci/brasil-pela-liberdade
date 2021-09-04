@@ -82,3 +82,10 @@
 body {
   background-color: #ffdf00;
 }
+
+@media (max-width: 768px) {
+  .logo {
+      font-size: 25px !important;
+      top: 25px;
+  }
+}

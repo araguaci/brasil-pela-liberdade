@@ -17,7 +17,7 @@ body {
 .gallery-container h1 {
     text-align: center;
     margin-top: 70px;
-    font-family: 'Droid Sans', sans-serif;
+    font-family: "Droid Sans", sans-serif;
     font-weight: bold;
 }
 
@@ -37,7 +37,7 @@ body {
     width: 100%;
     margin-bottom: 5px;
     transition: 0.2s ease-in-out;
-    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
 
 .card {
@@ -46,7 +46,7 @@ body {
 
 .tz-gallery .lightbox img:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
 }
 
 .tz-gallery img {
@@ -57,13 +57,32 @@ body {
     background-color: transparent !important;
 }
 
+.tz-gallery {
+    padding: 60px 40px 40px 40px;
+}
 
-@media(max-width: 768px) {
+.logo {
+    top: 70px;
+    margin-bottom: 35px;
+}
+ul {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+ul li {
+    padding: 7px;
+    font-size: 30px;
+    color: #009c3b;
+}
+
+@media (max-width: 768px) {
     body {
         padding: 0;
     }
-}
-
-.tz-gallery {
-    padding: 60px 40px 40px 40px;
+    .logo {
+        top: 15px;
+        margin-bottom: 35px;
+        font-size: 24px;
+    }
 }

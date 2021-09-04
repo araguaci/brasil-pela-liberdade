@@ -67,3 +67,14 @@ body {
 .tz-gallery {
     margin-top: 50px;
 }
+
+@media (max-width: 768px) {
+    .thumbnail a>img, .thumbnail>img {
+        width: 100%;
+        max-width: 100%;
+    }
+    .logo {
+        font-size: 25px;
+        top: 25px;
+    }
+}

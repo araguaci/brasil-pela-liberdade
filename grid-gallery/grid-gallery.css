@@ -51,3 +51,10 @@ body  {
 .card a {
   color: #009c3b !important;
 }
+
+@media (max-width: 768px) {
+  .logo {
+      font-size: 25px !important;
+      top: 25px;
+  }
+}
