@@ -9,7 +9,7 @@ body {
     margin-top: 70px;
     font-family: "Droid Sans", sans-serif;
     font-weight: bold;
-    color: #58595a;
+    color: #009c3b;
 }
 
 .gallery-container p.page-description {
@@ -71,4 +71,10 @@ body {
     .thumbnail > img {
         width: 100%;
     }
+}
+
+h3 {
+    font-size: 30px;
+    color: #009c3b; 
+    font-family: "Droid Sans", sans-serif;
 }
