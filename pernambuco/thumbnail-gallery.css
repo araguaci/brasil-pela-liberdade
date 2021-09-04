@@ -7,7 +7,7 @@ body {
 .gallery-container h1 {
     text-align: center;
     margin-top: 70px;
-    font-family: 'Droid Sans', sans-serif;
+    font-family: "Droid Sans", sans-serif;
     font-weight: bold;
     color: #58595a;
 }
@@ -41,7 +41,7 @@ body {
     border-radius: 4px 4px 0 0;
 }
 
-.tz-gallery .caption{
+.tz-gallery .caption {
     padding: 26px 30px;
     text-align: center;
 }
@@ -60,4 +60,15 @@ body {
 
 .baguetteBox-button {
     background-color: transparent !important;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        top: 25px;
+        font-size: 22px !important;
+    }
+    .thumbnail a > img,
+    .thumbnail > img {
+        width: 100%;
+    }
 }
