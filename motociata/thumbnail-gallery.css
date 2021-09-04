@@ -9,14 +9,14 @@ body {
     margin-top: 70px;
     font-family: "Droid Sans", sans-serif;
     font-weight: bold;
-    color: #58595a;
+    color: #009c3b;
 }
 
 .gallery-container p.page-description {
     text-align: center;
     margin: 30px auto;
     font-size: 18px;
-    color: #85878c;
+    color: #009c3b;
 }
 
 .tz-gallery {
@@ -47,14 +47,15 @@ body {
 }
 
 .tz-gallery .caption h3 {
-    font-size: 14px;
+    font: normal 16px sans-serif;
     font-weight: bold;
     margin-top: 0;
+    color: #009c3b;
 }
 
 .tz-gallery .caption p {
     font-size: 12px;
-    color: #7b7d7d;
+    color: #009c3b;
     margin: 0;
 }
 
