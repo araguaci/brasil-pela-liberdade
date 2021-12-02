@@ -14,7 +14,7 @@ Primary style
 }
 
 body {
-  font-size: 100%;
+  font-size: 120%;
   font-family: "Open Sans", sans-serif;
   color: #4e5359;
 
@@ -67,8 +67,9 @@ header {
   height: 100px;
   line-height: 100px;
   text-align: center;
+  display: list-item;
 }
-header h1 {
+header .title {
   color: #008b00;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -76,9 +77,9 @@ header h1 {
   font-size: 2.25rem;
   text-shadow: 3px 3px 7px #ffffff;
 } 
-header h1 .subtitle {
-  font-size: 18px;
-  font-size: 1.25rem;
+header .subtitle {
+  font-size: 22px;
+  font-size: 1.65rem;
 }
 @-webkit-keyframes BrasilAcimaDeTudo {
   0%{background-position:50% 0%}
@@ -97,10 +98,10 @@ header h1 .subtitle {
 }
 @media only screen and (min-width: 1024px) {
   header {
-    height: 30px;
+    height: 100px;
     line-height: 70px;
   }
-  header h1 {
+  header .title {
     font-size: 36px;
     font-size: 2.5rem; 
   }
@@ -129,8 +130,8 @@ header h1 .subtitle {
   position: relative;
   display: block;
   overflow: hidden;
-  height: 50px;
-  line-height: 50px;
+  height: 25px;
+  line-height: 25px;
   padding: 0 28px 0 16px;
   background-color: #4e5359;
   -webkit-font-smoothing: antialiased;
@@ -162,19 +163,26 @@ header h1 .subtitle {
 }
 @media only screen and (min-width: 768px) {
   .cd-faq-categories {
-    width: 20%;
     float: left;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);    
+  }
+  .cd-faq-categories {  
+    margin: 0.21em 1 auto;
+  }
+  ul.cd-faq-categories {
+    list-style: none;
+    padding-left: 0px;
   }
   .cd-faq-categories a {
-    font-size: 13px;
+    font-size: 14px;
     font-size: 0.8125rem;
     font-weight: 600;
-    padding-left: 24px;
+    padding-left: 15px;
     padding: 0 24px;
     -webkit-transition: background 0.2s, padding 0.2s;
     -moz-transition: background 0.2s, padding 0.2s;
     transition: background 0.2s, padding 0.2s;
+    list-style: none;
   }
   .cd-faq-categories a::before, .cd-faq-categories a::after {
     display: none;
@@ -185,15 +193,20 @@ header h1 .subtitle {
   .no-js .cd-faq-categories {
     width: 100%;
     margin-bottom: 2em;
-  }
+  } 
 }
 @media only screen and (min-width: 1024px) {
   .cd-faq-categories {
     position: absolute;
     top: 0;
     left: 0;
-    width: 200px;
+    width: 210px;
     z-index: 2;
+    list-style: none;
+  }
+  ul.cd-faq-categories {
+    list-style: none;
+    padding-left: 10px;
   }
   .cd-faq-categories a::before {
     /* decorative rectangle on the left visible for the selected item */
@@ -283,7 +296,7 @@ header h1 .subtitle {
   .cd-faq-items {
     float: none;
     width: 100%;
-    padding-left: 220px;
+    padding-left: 197px;
   }
   .no-js .cd-faq-items {
     padding-left: 0;
@@ -345,10 +358,14 @@ header h1 .subtitle {
     display: none;
   }
 }
-
+.cd-faq-categories a {
+  height: 35px;
+  line-height: 35px;
+}
 .cd-faq-group {
   /* hide group not selected */
   display: none;
+  list-style: none;
 }
 .cd-faq-group.selected {
   display: block;
@@ -366,20 +383,26 @@ header h1 .subtitle {
   font-size: 16px;
   font-size: 1.25rem;
   font-weight: 700;
-  color: #005cd3;
-  text-shadow: 3px 3px 7px #ffffff;
+  color: #008b00;
+  text-shadow: 3px 3px 7px #f6e300;
 }
 .no-js .cd-faq-group {
   display: block;
+  list-style: none;
 }
 @media only screen and (min-width: 768px) {
   .cd-faq-group {
     /* all groups visible */
     display: block;
   }
+  .cd-faq-categories ul {
+    list-style: none;
+    padding-left: 0px;
+  }
   .cd-faq-group > li {
     background: #ffffff;
     margin-bottom: 6px;
+    list-style: none;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
     -webkit-transition: box-shadow 0.2s;
     -moz-transition: box-shadow 0.2s;
@@ -459,11 +482,11 @@ header h1 .subtitle {
 }
 
 .cd-faq-content p {
-  font-size: 14px;
-  font-size: 0.875rem;
+  font-size: 16px;
   line-height: 1.4;
   color: #6c7d8e;
 }
+
 @media only screen and (min-width: 768px) {
   .cd-faq-content {
     display: none;
