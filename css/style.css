@@ -60,14 +60,12 @@ section.home {
 }
 
 .logo {
-  position: relative;
+  position: absolute;
   top: 30px;
   left: 100px;
   font-size: 2rem;
   font-weight: 700;
   z-index: 20;
-  margin-top: 16px;
-  margin-bottom: 16px;
 }
 
 /* TOGGLE */
