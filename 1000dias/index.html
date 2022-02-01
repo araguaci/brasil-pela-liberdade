@@ -11,14 +11,30 @@
     <!-- Resource style -->
     <script src="js/modernizr.js"></script>
     <!-- Modernizr -->
+    <style>
+      .toggle {
+        z-index: 20;
+        cursor: pointer;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 60px;
+        height: 60px;
+        background: url(../images/home.png) !important;
+        background-size: 30px !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+      } 
+    </style>
   </head>
   <body>
+    <div id="background"></div>
     <!-- gn-menu -->
     <header>
       <div class="title">✠ 1000 dias de Governo ✠<br />
-        <span class="subtitle">Conheça as diversas entregas realizadas pelo Governo Federal</span>      
+        <span class="subtitle">Obras realizadas pelo Governo Federal</span>      
       </div>
-      
+      <a href="../index.html"><div class="toggle"></div></a>
     </header>
     <!-- /gn-menu -->
     <section class="cd-faq">
@@ -37,26 +53,26 @@
         <li><a href="#MatoGrossodoSul">Mato Grosso do Sul</a></li>
         <li><a href="#MinasGerais">Minas Gerais</a></li>
         <li><a href="#Para">Pará</a></li>
-        <li><a href="#Parana">Paraná (PR)</a></li>
-        <li><a href="#Paraiba">Paraíba (PB)</a></li>
-        <li><a href="#Pernambuco">Pernambuco (PE)</a></li>
-        <li><a href="#Piaui">Piauí (PI)</a></li>
-        <li><a href="#RiodeJaneiro">Rio de Janeiro (RJ)</a></li>
-        <li><a href="#RioGrandedoNorte">Rio Grande do Norte (RN)</a></li>
-        <li><a href="#RioGrandedoSul">Rio Grande do Sul (RS)</a></li>
-        <li><a href="#Rondonia">Rondônia (RO)</a></li>
-        <li><a href="#Roraima">Roraima (RR)</a></li>
-        <li><a href="#SantaCatarina">Santa Catarina (SC)</a></li>
-        <li><a href="#SaoPaulo">São Paulo (SP)</a></li>
-        <li><a href="#Sergipe">Sergipe (SE)</a></li>
-        <li><a href="#Tocantins">Tocantins (TO)</a></li>
+        <li><a href="#Parana">Paraná </a></li>
+        <li><a href="#Paraiba">Paraíba </a></li>
+        <li><a href="#Pernambuco">Pernambuco</a></li>
+        <li><a href="#Piaui">Piauí </a></li>
+        <li><a href="#RiodeJaneiro">Rio de Janeiro </a></li>
+        <li><a href="#RioGrandedoNorte">Rio Grande do Norte</a></li>
+        <li><a href="#RioGrandedoSul">Rio Grande do Sul</a></li>
+        <li><a href="#Rondonia">Rondônia</a></li>
+        <li><a href="#Roraima">Roraima </a></li>
+        <li><a href="#SantaCatarina">Santa Catarina </a></li>
+        <li><a href="#SaoPaulo">São Paulo </a></li>
+        <li><a href="#Sergipe">Sergipe </a></li>
+        <li><a href="#Tocantins">Tocantins</a></li>
       </ul>
       <!-- cd-faq-categories -->
 
       <div class="cd-faq-items">
         
         <ul id="Acre" class="cd-faq-group">
-          <li class="cd-faq-title"><h2>Atuação do Governo no Acre</h2></li>
+          <li class="cd-faq-title"><h2><img src="../images/UF_AC.png" height=32>Atuação do Governo no Acre </h2></li>
           <li>
             <a class="cd-faq-trigger" href="#0">Infraestrutura Acre</a>
             <div class="cd-faq-content">
@@ -135,7 +151,7 @@
         <!-- cd-faq-group -->
 
         <ul id="Alagoas" class="cd-faq-group">
-          <li class="cd-faq-title"><h2>Atuação do Governo no Alagoas</h2></li>
+          <li class="cd-faq-title"><h2><img src="../images/UF_AL.png" height=32>Atuação do Governo no Alagoas</h2></li>
           <li>
             <a class="cd-faq-trigger" href="#0">Infraestrutura Alagoas</a>
             <div class="cd-faq-content">
@@ -197,7 +213,7 @@
         <!-- cd-faq-group -->
 
         <ul id="Amapa" class="cd-faq-group">
-          <li class="cd-faq-title"><h2>Atuação do Governo no Amapa</h2></li>
+          <li class="cd-faq-title"><h2><img src="../images/UF_AP.png" height=32>Atuação do Governo no Amapa</h2></li>
           <li>
             <a class="cd-faq-trigger" href="#0">Infraestrutura Amapa</a>
             <div class="cd-faq-content">
@@ -259,7 +275,7 @@
         <!-- cd-faq-group -->
 
         <ul id="Amazonas" class="cd-faq-group">
-          <li class="cd-faq-title"><h2>Atuação do Governo no Amazonas</h2></li>
+          <li class="cd-faq-title"><h2><img src="../images/UF_AM.png" height=32>Atuação do Governo no Amazonas</h2></li>
           <li>
             <a class="cd-faq-trigger" href="#0">Infraestrutura Amazonas</a>
             <div class="cd-faq-content">
@@ -352,7 +368,7 @@
         <!-- cd-faq-group -->
 
         <ul id="Bahia" class="cd-faq-group">
-          <li class="cd-faq-title"><h2>Atuação do Governo no Bahia</h2></li>
+          <li class="cd-faq-title"><h2><img src="../images/UF_BA.png" height=32>Atuação do Governo no Bahia</h2></li>
           <li>
             <a class="cd-faq-trigger" href="#0">Infraestrutura Bahia</a>
             <div class="cd-faq-content">
@@ -411,7 +427,7 @@
         <!-- cd-faq-group -->
 
         <ul id="Ceara" class="cd-faq-group">
-          <li class="cd-faq-title"><h2>Atuação do Governo no Ceará</h2></li>
+          <li class="cd-faq-title"><h2><img src="../images/UF_CE.png" height=32>Atuação do Governo no Ceará</h2></li>
           <li>
             <a class="cd-faq-trigger" href="#0">Infraestrutura Ceará</a>
             <div class="cd-faq-content">
@@ -473,7 +489,7 @@
         <!-- cd-faq-group -->
 
         <ul id="DistritoFederal" class="cd-faq-group">
-          <li class="cd-faq-title"><h2>Atuação do Governo no Distrito Federal</h2></li>
+          <li class="cd-faq-title"><h2><img src="../images/UF_DF.png" height=32>Atuação do Governo no Distrito Federal</h2></li>
           <li>
             <a class="cd-faq-trigger" href="#0">Infraestrutura Distrito Federal</a>
             <div class="cd-faq-content">
@@ -526,7 +542,7 @@
         <!-- cd-faq-group -->
 
         <ul id="EspiritoSanto" class="cd-faq-group">
-          <li class="cd-faq-title"><h2>Atuação do Governo no Espírito Santo</h2></li>
+          <li class="cd-faq-title"><h2><img src="../images/UF_ES.png" height=32>Atuação do Governo no Espírito Santo</h2></li>
           <li>
             <a class="cd-faq-trigger" href="#0">Infraestrutura Espírito Santo</a>
             <div class="cd-faq-content">
@@ -579,7 +595,7 @@
         <!-- cd-faq-group -->
 
         <ul id="Goias" class="cd-faq-group">
-          <li class="cd-faq-title"><h2>Atuação do Governo no Goiás</h2></li>
+          <li class="cd-faq-title"><h2><img src="../images/UF_GO.png" height=32>Atuação do Governo no Goiás</h2></li>
           <li>
             <a class="cd-faq-trigger" href="#0">Infraestrutura Goiás</a>
             <div class="cd-faq-content">
@@ -634,7 +650,7 @@
         <!-- cd-faq-group -->
 
         <ul id="Maranhao" class="cd-faq-group">
-          <li class="cd-faq-title"><h2>Atuação do Governo no Maranhão</h2></li>
+          <li class="cd-faq-title"><h2><img src="../images/UF_MA.png" height=32>Atuação do Governo no Maranhão</h2></li>
           <li>
             <a class="cd-faq-trigger" href="#0">Infraestrutura Maranhão</a>
             <div class="cd-faq-content">
@@ -694,7 +710,7 @@
         <!-- cd-faq-group -->
 
         <ul id="12345678" class="cd-faq-group">
-          <li class="cd-faq-title"><h2>Atuação do Governo no Mato Grosso</h2></li>
+          <li class="cd-faq-title"><h2><img src="../images/UF_MT.png" height=32>Atuação do Governo no Mato Grosso</h2></li>
           <li>
             <a class="cd-faq-trigger" href="#0">Infraestrutura Mato Grosso</a>
             <div class="cd-faq-content">
@@ -756,7 +772,7 @@
         <!-- cd-faq-group -->
 
         <ul id="MatoGrossodoSul" class="cd-faq-group">
-          <li class="cd-faq-title"><h2>Atuação do Governo no Mato Grosso do Sul</h2></li>
+          <li class="cd-faq-title"><h2><img src="../images/UF_MS.png" height=32>Atuação do Governo no Mato Grosso do Sul</h2></li>
           <li>
             <a class="cd-faq-trigger" href="#0">Infraestrutura Mato Grosso do Sul
 
@@ -815,7 +831,7 @@
         <!-- cd-faq-group -->
 
         <ul id="MinasGerais" class="cd-faq-group">
-          <li class="cd-faq-title"><h2>Atuação do Governo no Minas Gerais</h2></li>
+          <li class="cd-faq-title"><h2><img src="../images/UF_MG.png" height=32>Atuação do Governo no Minas Gerais</h2></li>
           <li>
             <a class="cd-faq-trigger" href="#0">Infraestrutura Minas Gerais</a>
             <div class="cd-faq-content">
@@ -873,7 +889,7 @@
         <!-- cd-faq-group -->
 
         <ul id="Para" class="cd-faq-group">
-          <li class="cd-faq-title"><h2>Atuação do Governo no Pará</h2></li>
+          <li class="cd-faq-title"><h2><img src="../images/UF_PA.png" height=32>Atuação do Governo no Pará</h2></li>
           <li>
             <a class="cd-faq-trigger" href="#0">Infraestrutura Pará</a>
             <div class="cd-faq-content">
@@ -931,7 +947,7 @@
         <!-- cd-faq-group -->
 
         <ul id="Parana" class="cd-faq-group">
-          <li class="cd-faq-title"><h2>Atuação do Governo no Paraná</h2></li>
+          <li class="cd-faq-title"><h2><img src="../images/UF_PR.png" height=32>Atuação do Governo no Paraná</h2></li>
           <li>
             <a class="cd-faq-trigger" href="#0">Infraestrutura Paraná</a>
             <div class="cd-faq-content">
@@ -987,7 +1003,7 @@
         <!-- cd-faq-group -->
 
         <ul id="Paraiba" class="cd-faq-group">
-          <li class="cd-faq-title"><h2>Atuação do Governo no Paraíba</h2></li>
+          <li class="cd-faq-title"><h2><img src="../images/UF_PB.png" height=32>Atuação do Governo no Paraíba</h2></li>
           <li>
             <a class="cd-faq-trigger" href="#0">Infraestrutura Paraíba</a>
             <div class="cd-faq-content">
@@ -1042,7 +1058,7 @@
         <!-- cd-faq-group -->
 
         <ul id="Pernambuco" class="cd-faq-group">
-          <li class="cd-faq-title"><h2>Atuação do Governo no Pernambuco</h2></li>
+          <li class="cd-faq-title"><h2><img src="../images/UF_PE.png" height=32>Atuação do Governo no Pernambuco</h2></li>
           <li>
             <a class="cd-faq-trigger" href="#0">Infraestrutura Pernambuco</a>
             <div class="cd-faq-content">
@@ -1098,7 +1114,7 @@
         <!-- cd-faq-group -->
 
         <ul id="Piaui" class="cd-faq-group">
-          <li class="cd-faq-title"><h2>Atuação do Governo no Piauí</h2></li>
+          <li class="cd-faq-title"><h2><img src="../images/UF_PI.png" height=32>Atuação do Governo no Piauí</h2></li>
           <li>
             <a class="cd-faq-trigger" href="#0">Infraestrutura Piauí</a>
             <div class="cd-faq-content">
@@ -1150,7 +1166,7 @@
         <!-- cd-faq-group -->
 
         <ul id="RiodeJaneiro" class="cd-faq-group">
-          <li class="cd-faq-title"><h2>Atuação do Governo no Rio de Janeiro</h2></li>
+          <li class="cd-faq-title"><h2><img src="../images/UF_RJ.png" height=32>Atuação do Governo no Rio de Janeiro</h2></li>
           <li>
             <a class="cd-faq-trigger" href="#0">Infraestrutura Rio de Janeiro</a>
             <div class="cd-faq-content">
@@ -1210,7 +1226,7 @@
         <!-- cd-faq-group -->
 
         <ul id="RioGrandedoNorte" class="cd-faq-group">
-          <li class="cd-faq-title"><h2>Atuação do Governo no Rio Grande do Norte</h2></li>
+          <li class="cd-faq-title"><h2><img src="../images/UF_RN.png" height=32>Atuação do Governo no Rio Grande do Norte</h2></li>
           <li>
             <a class="cd-faq-trigger" href="#0">Infraestrutura Rio Grande do Norte</a>
             <div class="cd-faq-content">
@@ -1268,7 +1284,7 @@
 
 
         <ul id="RioGrandedoSul" class="cd-faq-group">
-          <li class="cd-faq-title"><h2>Atuação do Governo no Rio Grande do Sul</h2></li>
+          <li class="cd-faq-title"><h2><img src="../images/UF_RS.png" height=32>Atuação do Governo no Rio Grande do Sul</h2></li>
           <li>
             <a class="cd-faq-trigger" href="#0">Infraestrutura Rio Grande do Sul</a>
             <div class="cd-faq-content">
@@ -1335,7 +1351,7 @@
 
 
         <ul id="Rondonia" class="cd-faq-group">
-          <li class="cd-faq-title"><h2>Atuação do Governo no Rondônia</h2></li>
+          <li class="cd-faq-title"><h2><img src="../images/UF_RO.png" height=32>Atuação do Governo no Rondônia</h2></li>
           <li>
             <a class="cd-faq-trigger" href="#0">Infraestrutura Rondônia</a>
             <div class="cd-faq-content">
@@ -1410,7 +1426,7 @@
 
 
         <ul id="Roraima" class="cd-faq-group">
-          <li class="cd-faq-title"><h2>Atuação do Governo no Roraima</h2></li>
+          <li class="cd-faq-title"><h2><img src="../images/UF_RR.png" height=32>Atuação do Governo no Roraima</h2></li>
           <li>
             <a class="cd-faq-trigger" href="#0">Infraestrutura Roraima</a>
             <div class="cd-faq-content">
@@ -1475,7 +1491,7 @@
 
 
         <ul id="SantaCatarina" class="cd-faq-group">
-          <li class="cd-faq-title"><h2>Atuação do Governo no Santa Catarina</h2></li>
+          <li class="cd-faq-title"><h2><img src="../images/UF_SC.png" height=32>Atuação do Governo no Santa Catarina</h2></li>
           <li>
             <a class="cd-faq-trigger" href="#0">Infraestrutura Santa Catarina</a>
             <div class="cd-faq-content">
@@ -1533,7 +1549,7 @@
 
 
         <ul id="SaoPaulo" class="cd-faq-group">
-          <li class="cd-faq-title"><h2>Atuação do Governo no São Paulo</h2></li>
+          <li class="cd-faq-title"><h2><img src="../images/UF_SP.png" height=32>Atuação do Governo no São Paulo</h2></li>
           <li>
             <a class="cd-faq-trigger" href="#0">Infraestrutura São Paulo</a>
             <div class="cd-faq-content">
@@ -1598,7 +1614,7 @@
 
 
         <ul id="Sergipe" class="cd-faq-group">
-          <li class="cd-faq-title"><h2>Atuação do Governo no Sergipe</h2></li>
+          <li class="cd-faq-title"><h2><img src="../images/UF_SE.png" height=32>Atuação do Governo no Sergipe</h2></li>
           <li>
             <a class="cd-faq-trigger" href="#0">Infraestrutura Sergipe</a>
             <div class="cd-faq-content">
@@ -1649,7 +1665,7 @@
 
 
         <ul id="Tocantins" class="cd-faq-group">
-          <li class="cd-faq-title"><h2>Atuação do Governo no Tocantins</h2></li>
+          <li class="cd-faq-title"><h2><img src="../images/UF_TO.png" height=32>Atuação do Governo no Tocantins</h2></li>
           <li>
             <a class="cd-faq-trigger" href="#0">Infraestrutura Tocantins</a>
             <div class="cd-faq-content">
@@ -1704,11 +1720,7 @@
     <script src="js/jquery-2.1.1.js"></script>
     <script src="js/jquery.mobile.custom.min.js"></script>
     <script src="js/main.js"></script>
-    <!-- Resource jQuery -->
-
-    <!-- gn-menu -->
-    <script src="../js/script.js"></script>
-    <!-- /gn-menu -->
+    <!-- Resource jQuery --> 
     <div class="footer" style="background-color: rgb(54, 47, 47)">
       <span
         style="
@@ -1725,7 +1737,7 @@
       ></span>
     </div>
 
-    <!--    
+<!--    
 ✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠
 ✠✠✠  Desenvolvido por: @araguaci - www.artesdosul.com   ✠✠✠
 ✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠✠
