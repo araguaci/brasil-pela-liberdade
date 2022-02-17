@@ -23,4 +23,4 @@ Uma série de eventos realizados em todo o Brasil, pedindo liberdade para trabal
   - [✠ 12 de Maio de 2021](https://brasil-pela-liberdade.vercel.app/clean/)
   - [✠ 1º de Maio de 2021](https://brasil-pela-liberdade.vercel.app/cards-gallery/)
   - [✠ 14 de Março de 2021](https://brasil-pela-liberdade.vercel.app/fluid/)
-  - [✠ Motociatas 2021 ✠](https://brasil-pela-liberdade.vercel.app/motociata/)
+  - [✠ Motociatas 2021](https://brasil-pela-liberdade.vercel.app/motociata/)
