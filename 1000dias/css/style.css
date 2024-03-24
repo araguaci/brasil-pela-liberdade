@@ -19,6 +19,8 @@ body {
   color: #4e5359;
   /*
   background: #f6e300 url(../../images/flag-header) no-repeat;
+  /*
+  background: #f6e300 url(../../images/flag-header) no-repeat;
 
   background: linear-gradient(359deg, #005cd3, #f6e300, #008b00);
   background-size: 600% 600%;
@@ -49,6 +51,7 @@ body::after {
   width: 100%;
   height: 100%;
   /*background-color: rgba(78, 83, 89, 0.8);*/
+  /*background-color: rgba(78, 83, 89, 0.8);*/
   visibility: hidden;
   opacity: 0;
   -webkit-transition: opacity .3s 0s, visibility 0s .3s;
@@ -69,6 +72,7 @@ body.cd-overlay::after {
 }
 
 a {
+  color: #008b00;
   color: #008b00;
   text-decoration: none;
 }
@@ -391,6 +395,8 @@ header .subtitle {
 .cd-faq-categories a {
   height: 21px;
   line-height: 21px;
+  height: 21px;
+  line-height: 21px;
   list-style: none;
 }
 .cd-faq-group {
@@ -462,6 +468,7 @@ header .subtitle {
     font-size: 1.5rem;
     font-weight: 300;
     margin: 0;
+    padding: 20px 72px 20px 20px;
     padding: 20px 72px 20px 20px;
   }
   .cd-faq-trigger::before, .cd-faq-trigger::after {
