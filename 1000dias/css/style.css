@@ -17,6 +17,8 @@ body {
   font-size: 120%;
   font-family: "Open Sans", sans-serif;
   color: #4e5359;
+  /*
+  background: #f6e300 url(../../images/flag-header) no-repeat;
 
   background: linear-gradient(359deg, #005cd3, #f6e300, #008b00);
   background-size: 600% 600%;
@@ -24,6 +26,20 @@ body {
   -webkit-animation: BrasilAcimaDeTudo 30s ease infinite;
   -moz-animation: BrasilAcimaDeTudo 30s ease infinite;
   animation: BrasilAcimaDeTudo 30s ease infinite;
+  */
+}
+#background{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: #f6e300 url(../../images/flag-header.png);
+  background-size: cover;
+  background-position: top center;
+  background-origin: padding-box;
+  background-attachment: fixed;
+  opacity: 0.4;
 }
 body::after {
   /* overlay layer visible on small devices when the right panel slides in */
@@ -32,7 +48,7 @@ body::after {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(78, 83, 89, 0.8);
+  /*background-color: rgba(78, 83, 89, 0.8);*/
   visibility: hidden;
   opacity: 0;
   -webkit-transition: opacity .3s 0s, visibility 0s .3s;
@@ -53,7 +69,7 @@ body.cd-overlay::after {
 }
 
 a {
-  color: #a9c056;
+  color: #008b00;
   text-decoration: none;
 }
 
@@ -373,8 +389,8 @@ header .subtitle {
   list-style: none;
 }
 .cd-faq-categories a {
-  height: 35px;
-  line-height: 35px;
+  height: 21px;
+  line-height: 21px;
   list-style: none;
 }
 .cd-faq-group {
@@ -394,12 +410,12 @@ header .subtitle {
   box-shadow: none;
 }
 .cd-faq-group .cd-faq-title h2 {
-  text-transform: uppercase;
-  font-size: 16px;
-  font-size: 1.25rem;
-  font-weight: 700;
+  text-transform: uppercase; 
+  font-size: 1.55rem;
+  font-weight: 800;
   color: #008b00;
-  text-shadow: 3px 3px 7px #f6e300;
+  /*text-shadow: 3px 3px 7px #f6e300;*/
+  text-shadow: 2px 2px 5px #005cd3;
 }
 .no-js .cd-faq-group {
   display: block;
@@ -446,7 +462,7 @@ header .subtitle {
     font-size: 1.5rem;
     font-weight: 300;
     margin: 0;
-    padding: 24px 72px 24px 24px;
+    padding: 20px 72px 20px 20px;
   }
   .cd-faq-trigger::before, .cd-faq-trigger::after {
     /* arrow icon on the right */
@@ -513,4 +529,9 @@ header .subtitle {
   .no-js .cd-faq-content {
     display: block;
   }
+}
+
+h2 img {
+  vertical-align: middle;
+  margin-right: 15px;
 }
